@@ -1,0 +1,164 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2;
+}
+
+.flex {
+    margin: 10px;
+}
+
+.flexOne{
+    display: flex;
+    
+}
+
+.flexOne div{
+    margin:5px;
+}
+
+.flexTwo{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexTwo  div{
+    margin: 2px;
+}
+
+.flexThree{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:start;
+}
+
+.flexThree  div{
+    margin: 2px;
+}
+
+.flexFour{
+    display:flex; 
+    flex-wrap: wrap;
+    width: 350px;   
+}
+
+.flexFour  div{
+    background-color: #3d8b6d;
+    margin: 5px;
+}
+
+.flexFive{
+    display: flex;
+    width: 350px;
+   
+    
+}
+
+.flexFive  div{
+    margin: 2px;
+    width: 100px;
+    height: 100px;
+    background-color: #0b6643;
+}
+
+.flexFive #grow{
+    flex-grow: 2;
+}
+
+.flexSix{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.flexSix>.one{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexSix>.two{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+}
+
+.flexSix>.three{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexSeven{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    
+}
+
+.flexSeven>.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexSeven>.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+     background-color: #d6d6d6;
+}
+
+.flexSeven>.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.flexSeven>.four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+}
+
+
+.flexEight{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-color: #eeeeee;
+    
+}
+
+.flexEight> .one{
+    display: flex;
+    align-items: center;
+}
+
+.flexEight> .two{
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexEight> .three{
+    display: flex;
+    align-items: flex-start;
+}
+
+.flexNine{
+    display: flex;
+    width: 450px;
+    height: 250px;
+    background-color: #eeeeee;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+
+.flexNine> #special{
+    align-self: flex-end;
+}
